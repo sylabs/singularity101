@@ -13,7 +13,7 @@ INFO:    Downloading library image
 Then, execute it to see its output:
 
 ```
-$ ./test.sif
+$ ./container_lab7.sif
  _   _      _ _          __                     
 | | | | ___| | | ___    / _|_ __ ___  _ __ ___  
 | |_| |/ _ \ | |/ _ \  | |_| '__/ _ \| '_ ` _ \ 
