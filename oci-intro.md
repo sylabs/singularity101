@@ -1,6 +1,6 @@
 # 📄 OCI Mode and Interoperability
 
-The Open Container Initiative (OCI), is a project aimed at creating
+The Open Containers Initiative (OCI), is a project aimed at creating
 open industry standards around container formats and runtime. The main
 goal of OCI is to ensure that containers are portable across different
 platforms and compatible with other container runtimes.
