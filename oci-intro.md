@@ -1,18 +1,29 @@
-# 📄 OCI Mode and Interoperability
+# 📄 OCI-Mode and Interoperability
 
 The Open Containers Initiative (OCI), is a project aimed at creating
 open industry standards around container formats and runtime. The main
 goal of OCI is to ensure that containers are portable across different
 platforms and compatible with other container runtimes.
 
-In SingularityCE 4.0, OCI mode was introduced to support these interoperability
+In SingularityCE 4.0, OCI-mode was introduced to support these interoperability
 standards, and in SingularityCE 4.1 it is now also possible to build images from Dockerfiles.
 
 Here is how it works. When issuing run, shell, exec or pull commands, with 
 the `--oci` flag, SingularityCE internals will switch to a low-level OCI
 runtime, depending on the operating system host, SingularityCE will
-automatically choose either `crun` or `runc`. This means that the native 
-runtime will not be used to ensure compatibility.
+automatically choose either `crun` or `runc`. The information provided in this
+section is intended to serve as an introduction to this feature, for detailed information
+about OCI-Mode, please visit [the official documentation.](https://docs.sylabs.io/guides/4.1/user-guide/oci_runtime.html#oci-mode-oci)
+
+````{note}
+In native mode, SingularityCE has always supported OCI containers by
+converting them into Singularity Containers, and, this works for the majority of
+the OCI containers. While OCI-mode is focused on running them 'as-is', without
+converting them into Singularity Containers.
+
+For more information about native mode and OCI Containers, please visit:
+[https://docs.sylabs.io/guides/4.1/user-guide/singularity_and_docker.html](https://docs.sylabs.io/guides/4.1/user-guide/singularity_and_docker.html)
+````
 
 ## OCI-SIF
 
