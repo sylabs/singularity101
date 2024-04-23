@@ -6,7 +6,7 @@ goal of OCI is to ensure that containers are portable across different
 platforms and compatible with other container runtimes.
 
 In SingularityCE 4.0, OCI mode was introduced to support these interoperability
-standard, and in SingularityCE 4.1 will now build images from Dockerfiles.
+standards, and in SingularityCE 4.1 it is now also possible to build images from Dockerfiles.
 
 Here is how it works. When issuing run, shell, exec or pull commands, with 
 the `--oci` flag, SingularityCE internals will switch to a low-level OCI
