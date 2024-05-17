@@ -6,6 +6,8 @@ jobs:
   publish-pdf:
     name: publish-pdf
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
