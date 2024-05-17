@@ -42,8 +42,7 @@ along with the option to publish new images for other developers and consumers.
 
 Developers can use SingularityCE to build and test their code before deploying
 it to a supercomputer. Singularity containers also offer several advantages over
-traditional VMs, including increased security, reduced resource consumption, and
-faster deployment times.
+traditional VMs, reduced resource consumption, and faster deployment times.
 
 ```{figure} /images/introduction-image1.png
 ---
