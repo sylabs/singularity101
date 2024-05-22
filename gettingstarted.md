@@ -27,7 +27,7 @@ $ sudo dnf update
 $ sudo dnf install singularity-ce
 ```
 
-If your operating system is Debian based, please follow the [SingularityCE installation guide](https://docs.sylabs.io/guides/3.10/admin-guide/installation.html#install-from-provided-rpm-deb-packages).
+If your operating system is Debian based, please follow the [SingularityCE installation guide](https://docs.sylabs.io/guides/latest/admin-guide/installation.html#install-from-provided-rpm-deb-packages).
 
 Once you’ve installed SingularityCE, you can issue the following command to run
 a container:

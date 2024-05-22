@@ -10,8 +10,7 @@ Next, let’s build a very simple image. We will create a file and name it
 lab2.def.  Simply add the following text.
 
 ````{note}
-Note
-Note This tutorial assumes that you are familiar with the vi editor. However,
+This tutorial assumes that you are familiar with the vi editor. However,
 this is not a mandatory requisite, feel free to substitute your preferred editor
 instead.
 `````
