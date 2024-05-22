@@ -73,10 +73,6 @@ have  many options to choose from, including the Singularity Container Library
 (library), Docker Hub, OCI Registry as Storage (ORAS), yum, localimage,
 debootstrap, Open Container Initiative (OCI), BusyBox, and others.
 
-For more information, please see our official
-[definition file](https://docs.sylabs.io/guides/latest/user-guide/definition_files.html)
-documentation.
-
 The `From` keyword depends on the bootstrap value, in this case, when using the
 library, the From keyword becomes valid and is used to specify the name and tag
 of the base OS.
@@ -110,3 +106,7 @@ be displayed while executing the `singularity inspect` command.
 
 The text in the `%help` section is transferred to a metadata file inside the
 container. It can be displayed using the `singularity run-help` command.
+
+For more information, please see our official
+[definition file](https://docs.sylabs.io/guides/latest/user-guide/definition_files.html)
+documentation.

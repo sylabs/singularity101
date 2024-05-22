@@ -20,6 +20,7 @@ From: golang:1.20.2-alpine
 Stage: compiler
 
 %post
+  apk add git
   git clone https://github.com/golang/example
   cd example/hello
   go build
@@ -29,7 +30,7 @@ From: alpine:3.17
 Stage: final
 
 %files from compiler
-  /root/hello /bin/hello
+  example/hello/hello /bin/hello
 ```
 
 ```bash
@@ -70,7 +71,7 @@ INFO:    Build complete: lab3.sif
 
 ```bash
 $ singularity exec lab3.sif hello
-Hello, Go examples!
+Hello, world!
 ```
 
 The names of the stages are up to you, and each of the sections will be executed
@@ -82,7 +83,9 @@ Let’s create a file named lab3-wrong.def and then build it as shown below:
 
 ```bash
 $ vi lab3-wrong.def
+```
 
+```
 Bootstrap: docker
 From: alpine:3.17
 Stage: final

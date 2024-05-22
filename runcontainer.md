@@ -21,7 +21,7 @@ engine and let it go its way. Next, let’s grab a shell and get into the
 container.
 
 ```bash
-singularity shell library://josue-sylabs/demo/wttr:latest
+$ singularity shell library://josue-sylabs/demo/wttr:latest
 INFO:    Using cached image
 Singularity> _
 ```
