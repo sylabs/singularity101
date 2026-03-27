@@ -19,7 +19,7 @@ container technologies that allow containers to run with root privileges,
 SingularityCE is rootless, reducing the risk of privilege escalation and
 unauthorized access in supercomputing and commercial environments. 
 
-[Read more](https://docs.sylabs.io/guides/3.11/user-guide/introduction.html)
+[Read more](https://docs.sylabs.io/guides/latest/user-guide/introduction.html)
 about why containers are needed and SingularityCE containers and their
 use cases on our documentation site. 
 

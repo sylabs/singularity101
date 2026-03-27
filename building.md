@@ -44,6 +44,9 @@ INFO:    Starting build...
 INFO:    Downloading library image
 28.4MiB / 28.4MiB [=====================================] 100 % 3.4 MiB/s 0s
 INFO:    Verifying bootstrap image /root/.singularity/cache/library/sha256.7a63c...98b
+INFO:    Running post scriptlet
++ echo “Display any message during build!”
+“Display any message during build!”
 INFO:    Creating SIF file...
 INFO:    Build complete: demo.sif
 ```

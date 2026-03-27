@@ -3,7 +3,7 @@
 There are situations where root access is not given, however, do not worry,
 there are 3 options to choose from:
 
-* Use --fakeroot.
+* Use `--fakeroot`.
 * Use proot.
 * Use Singularity Container Services.
 
@@ -87,8 +87,8 @@ your kernel is older, then your next option is to use proot.
 ## Using proot
 
 SingularityCE 3.11 introduces the ability to run some definition file builds
-without --fakeroot or sudo. This is useful on systems where you cannot sudo, and
-the administrator cannot perform the configurations necessary for --fakeroot
+without `--fakeroot` or sudo. This is useful on systems where you cannot sudo, and
+the administrator cannot perform the configurations necessary for `--fakeroot`
 support.
 
 Unprivileged proot builds are automatically performed when proot is available on
